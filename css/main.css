@@ -1,0 +1,44 @@
+@media all and (max-width: 670px) {
+    .container {
+        width: calc(100vmin - 60px);
+        height:  calc(100vmin - 60px);
+        margin: 0 auto;
+    }
+    body {
+        text-align: center;
+    }
+}
+
+@media screen and (min-width:480px) { 
+    /*　画面サイズが480pxからはここを読み込む　*/
+    .container {
+        width: calc(100vmin - 60px);
+        height:  calc(100vmin - 60px);
+        margin: 0 auto;
+    }
+    body {
+        text-align: center;
+    }
+}
+@media screen and (min-width:768px) and ( max-width:1024px) {
+    /*　画面サイズが768pxから1024pxまではここを読み込む　*/
+    .container {
+        width: 500px;
+        height:  500px;
+        margin: 10px 10px;
+    }
+    body {
+        text-align: left;
+    }
+}
+@media screen and (min-width:1024px) {
+    /*　画面サイズが1024pxからはここを読み込む　*/
+    .container {
+        width: 500px;
+        height:  500px;
+        margin: 10px 10px;
+    }
+    body {
+        text-align: left;
+    }
+}
