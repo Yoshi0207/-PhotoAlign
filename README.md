@@ -7,6 +7,16 @@ photo-alignクラスを持つタブで囲まれたimg要素を整列させるプ
 + CSS3
 
 ## 使い方
++ photo-align.jsをjsフォルダにダウンロードし,htmlに読み込む
+```
+<script src="js/photo-align.js"></script>
+```
+
++ photo-align.cssをcssフォルダにダウンロードし,htmlに読み込む
+```
+<link rel="stylesheet" href="css/photo-align.css">
+```
+
 + imgタグをclass="photo-align"をつけたdivタグ,またはulタグで囲む.
 ```
 <div class="photo-align">

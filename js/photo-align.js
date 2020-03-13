@@ -298,16 +298,6 @@ class OtherFunction {
 
 // html要素を読み込んだ後に実行される
 window.addEventListener('DOMContentLoaded', function(){
-    // photo-align.css読み込み
-    var head = document.head;
-    var linkElement = document.createElement("link");
-   
-    linkElement.type = "text/css";
-    linkElement.rel = "stylesheet";
-    linkElement.href = "css/photo-align.css";
-    head.appendChild(linkElement);
-    // css読み込みここまで
-
     // 全てのphoto-alignクラスを持つ要素を配列で取得
     const elements = document.getElementsByClassName('photo-align');
 
